@@ -75,7 +75,7 @@
 
     <!-- footer begins -->
     <footer class="border-top text-center small text-muted py-3">
-      <p class="m-0">Copyright &copy; {{ date('Y')}} <a href="/" class="text-muted">LittleThoughts</a>. All rights reserved.</p>
+      <p class="m-0">Copyright &copy; {{ date('Y')}} <a href="/" class="text-muted">LittleThoughts</a> | LM. All rights reserved.</p>
     </footer>
 
     @auth
