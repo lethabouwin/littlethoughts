@@ -16,7 +16,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->call(function () {
             Mail::to('test@google.com')->send(new RecapEmail);
-        })->everyTwoHours();
+        })->monthly();
         // $schedule->command('inspire')->hourly();
     }
 
